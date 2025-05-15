@@ -1,27 +1,97 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>Yaakov Kalman – Salesforce Developer</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <h1>Hi, I'm Yaakov Kalman 👋</h1>
-  <p>Salesforce Developer – PD1 Certified – 5+ years experience</p>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yaakov Kalman | Salesforce Developer</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+          Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: #f9f9fb;
+        color: #111;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 3rem;
+      }
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0.3rem;
+      }
+      h2 {
+        font-size: 1.25rem;
+        font-weight: 400;
+        color: #555;
+        margin-top: 0;
+        margin-bottom: 2rem;
+      }
+      .card {
+        background-color: #fff;
+        padding: 2rem;
+        border-radius: 1rem;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        max-width: 600px;
+        width: 100%;
+        margin-bottom: 1.5rem;
+      }
+      .project-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+      }
+      .project-desc {
+        margin-bottom: 1rem;
+        color: #333;
+      }
+      .btn-group {
+        display: flex;
+        gap: 1rem;
+      }
+      .btn {
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 0.5rem;
+        font-size: 1rem;
+        cursor: pointer;
+        text-decoration: none;
+        background-color: #e5e7eb;
+        color: #111;
+        transition: background-color 0.2s;
+      }
+      .btn:hover {
+        background-color: #d1d5db;
+      }
+      .btn.primary {
+        background-color: #2563eb;
+        color: white;
+      }
+      .btn.primary:hover {
+        background-color: #1e40af;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Yaakov Kalman</h1>
+    <h2>Salesforce Developer</h2>
 
-  <h2>Featured Projects</h2>
-  <ul>
-    <li>
-      <strong>Custom LWC DataTable</strong> – 
-      <a href="https://github.com/yaakovkalman/lwc-datatable" target="_blank">Code</a> | 
-      <a href="https://your-experience-site.com/datatable" target="_blank">Live Demo</a>
-    </li>
-  </ul>
+    <div class="card">
+      <div class="project-title">Custom Lightning Datatable</div>
+      <div class="project-desc">
+        Developed an advanced Lightning Web Component (LWC) featuring sorting,
+        pagination, custom cells, and export to CSV functionality.
+      </div>
+      <div class="btn-group">
+        <a href="#" class="btn">GitHub</a>
+        <a href="#" class="btn">Live Demo</a>
+      </div>
+    </div>
 
-  <h2>Contact</h2>
-  <p>
-    <a href="mailto:you@example.com">Email</a> |
-    <a href="https://linkedin.com/in/yourprofile">LinkedIn</a>
-  </p>
-</body>
+    <div class="btn-group">
+      <a href="https://linkedin.com/in/yaakovkalman" class="btn primary" target="_blank">LinkedIn</a>
+      <a href="mailto:yaakovkalman@gmail.com" class="btn">Email</a>
+    </div>
+  </body>
 </html>
